@@ -31,7 +31,7 @@ def hello() -> str:
     # https://cloud.google.com/run/docs/logging#correlate-logs
     logger.info("Child logger with trace Id.")
 
-    return "Hello, CIS437!"
+    return "Hello there, CIS437!<br /><a href='https://www.youtube.com/watch?v=hx93bNwZYqA'>a link</a>"
 
 
 def shutdown_handler(signal_int: int, frame: FrameType) -> None:
